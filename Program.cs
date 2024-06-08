@@ -28,4 +28,4 @@ while (response > products.Count || response < 1)
     response = int.Parse(Console.ReadLine().Trim());
 }
 
-Console.WriteLine($"You chose: {response}");
+Console.WriteLine($"You chose: {products[response - 1]}");
